@@ -1,16 +1,20 @@
 # 8-Bit-ALU
 
-##Overview
+## Overview
 This project implements an 8-bit combinational Arithmetic Logic Unit (ALU) in SystemVerilog. The ALU performs arithmetic, logical, and shift operations selected through a 3-bit opcode. A dedicated testbench was created to verify all supported operations through simulation.
 
-##Features
+---
+
+## Features
 - 8-Bit Datapath
 - Combinational RTL ('always_comb')
 - 3-Bit opcode control
 - Eight ALU operations
 - Simulation Testbench
 
-##Operations
+---
+
+## Supported Operations
  - 000 -> NOT A
  - 001 -> AND
  - 010 -> ADD
@@ -20,7 +24,9 @@ This project implements an 8-bit combinational Arithmetic Logic Unit (ALU) in Sy
  - 110 -> SHIFT LEFT (A)
  - 111 -> SHIFT RIGHT (A)
 
-##Program Structure
+---
+
+## Program Structure
 
 src/
 - ALU.sv
@@ -28,8 +34,9 @@ src/
 tb/ 
 - ALU_tb.sv
 
+---
 
-##Example Simulation 
+## Example Simulation 
 
 Example:
 
@@ -43,8 +50,9 @@ SUBTRACT: 1
 
 SHIFT LEFT: 10
 
+---
 
-##Improvements
+## Improvements
 - Zero flag
 - Carry flag
 - Overflow detection
