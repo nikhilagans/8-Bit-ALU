@@ -52,6 +52,20 @@ SHIFT LEFT: 10
 
 ---
 
+## Simulation Waveform
+
+The waveform below shows the ALU being tested across its supported
+operations using different 3-bit opcode values.
+
+![ALU Simulation Waveform](image/alu-waveform.png)
+
+---
+
+## Test Bench Results
+
+The testbench verifies the expected output for each ALU operation.
+
+![ALU Testbench Output](image/alu-testbench-output.png)
 ## Improvements
 - Zero flag
 - Carry flag
