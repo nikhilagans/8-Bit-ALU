@@ -14,6 +14,9 @@ module ALU_tb;
   
   initial 
     begin
+
+      $dumpfile("dump.vcd");
+      $dumpvars(0, ALU_tb);
       
       A = 8'b00000101; // A = 5
       B = 8'b00000100; // B = 4
