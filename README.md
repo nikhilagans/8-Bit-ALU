@@ -6,7 +6,7 @@ This project implements an 8-bit combinational Arithmetic Logic Unit (ALU) in Sy
 ##Features
 - 8-Bit Datapath
 - Combinational RTL ('always_comb')
-- 3-Bit opcocde control
+- 3-Bit opcode control
 - Eight ALU operations
 - Simulation Testbench
 
